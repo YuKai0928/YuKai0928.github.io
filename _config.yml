@@ -13,7 +13,7 @@ title                    : "Yu-Kai Hung"
 title_separator          : "-"
 name                     : &name "Yu-Kai Hung"
 description              : &description "personal description"
-url                      : https://YuKai029.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://YuKai0928.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
