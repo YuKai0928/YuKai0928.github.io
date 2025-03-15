@@ -31,8 +31,12 @@
 <lastmod>2023-10-01T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>/publication/chandelier</loc>
-<lastmod>2023-10-01T00:00:00+00:00</lastmod>
+<loc>/publication/cardinality</loc>
+<lastmod>2024-10-01T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>/simtube</loc>
+<lastmod>2025-03-01T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>/</loc>
@@ -86,10 +90,6 @@
 <loc>/year-archive/</loc>
 </url>
 <url>
-<loc>/SimTube-Project-Page-main/</loc>
-<lastmod>2025-03-06T03:26:05+00:00</lastmod>
-</url>
-<url>
 <loc>/files/paper1.pdf</loc>
 <lastmod>2025-03-11T04:24:39+00:00</lastmod>
 </url>
@@ -112,6 +112,10 @@
 <url>
 <loc>/files/slides3.pdf</loc>
 <lastmod>2025-03-11T04:24:39+00:00</lastmod>
+</url>
+<url>
+<loc>/simtube/</loc>
+<lastmod>2025-03-06T03:26:05+00:00</lastmod>
 </url>
 <url>
 <loc>/talkmap/map.html</loc>
