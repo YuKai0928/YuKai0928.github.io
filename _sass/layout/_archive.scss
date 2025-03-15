@@ -35,12 +35,39 @@
   border-bottom: 1px solid var(--global-border-color);
 
   + .list__item .archive__item-title {
-    margin-top: 0.5em;
+    margin-top: 0 !important;
   }
+}
+
+/* Parent container - ensuring consistent height */
+.list__item, 
+.grid__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto; /* Set uniform height for all items */
+  overflow: hidden;
+  padding: 0px !important ; /* Add padding inside each item */
+  margin-bottom: 0px; /* Add space between each publication */
+
+}
+
+/* Inner grid - Ensures equal columns */
+.inner-grid {
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  gap: 20px; /* Adjust spacing */
+  height: 100%; /* Ensures grid fills parent */
+
+  align-items: stretch; /* Ensures both columns take the same height */
+  overflow: visible; /* Ensure content is not clipped */
+
 }
 
 .archive__item-title {
   margin-bottom: 0.25em;
+  margin: 0 !important; /* Removes any unwanted margin */
+  
   font-family: $sans-serif-narrow;
 
   a + a {
@@ -52,9 +79,15 @@
 .page__content {
 
   .archive__item-title {
-    margin-top: 1em;
-    border-bottom: none;
+    margin-top: 0;
+    // border-bottom: none;
   }
+}
+
+.archive__item-author me{
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
 }
 
 .archive__item-excerpt {
@@ -69,8 +102,14 @@
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
+  height: 300px; /* Fixed image height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -120,7 +159,7 @@
   }
 
   .archive__item-title {
-    margin-top: 0.5em;
+    margin: 0;
     font-size: $type-size-5;
   }
 
@@ -151,7 +190,13 @@
   }
 }
 
-
+.archive__item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Aligns content to the top */
+  align-items: flex-start; /* Ensures left alignment */
+  height: 100%; /* Matches the height of the image */
+}
 /*
    Features
    ========================================================================== */
@@ -243,3 +288,5 @@
     }
   }
 }
+
+

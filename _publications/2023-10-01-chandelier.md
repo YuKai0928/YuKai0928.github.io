@@ -5,7 +5,8 @@ cover: paper_cover/chandelier.png
 collection: publications
 category: conferences
 permalink: /publication/chandelier
-excerpt: 'some excerption'
+excerpt: ''
+authorlist: 'Vivian Hsinyueh Chan, Chiao Fang, Yu-Kai Hung, Jing-Yuan Huang, Lung-Pan Cheng'
 date: 2023-10-01
 venue: "UIST '23 Adjunct"
 paperurl: 'https://dl.acm.org/doi/10.1145/3586182.3616695'
