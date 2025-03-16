@@ -55,10 +55,10 @@
 /* Inner grid - Ensures equal columns */
 .inner-grid {
   display: grid;
-  grid-template-columns: 3fr 5fr;
+  grid-template-columns: 5fr 3fr;
   gap: 20px; /* Adjust spacing */
   height: 100%; /* Ensures grid fills parent */
-
+  margin-bottom: 20px;
   align-items: stretch; /* Ensures both columns take the same height */
   overflow: visible; /* Ensure content is not clipped */
 
@@ -102,10 +102,12 @@
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
-  height: 300px; /* Fixed image height */
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Ensures the teaser maintains a 16:9 aspect ratio */
   display: flex;
   align-items: center;
   justify-content: center;
+
   img {
     width: 100%;
     height: 100%;
@@ -152,7 +154,8 @@
    ========================================================================== */
 
 .grid__item {
-  margin-bottom: 2em;
+  margin-bottom: 2em; /* Existing margin */
+  padding-bottom: 1em; /* Adds more spacing */
 
   .page__meta {
     margin: 0 0 4px;
@@ -288,5 +291,3 @@
     }
   }
 }
-
-
